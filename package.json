@@ -1,0 +1,16 @@
+{
+  "name": "dyliecaptcha-master",
+  "version": "4.0.2",
+  "description": "Captcha bot on nodejs",
+  "main": "client.js",
+  "scripts": {
+    "test": "node client.js"
+  },
+  "author": "y21",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "jimp": "^0.6.4",
+    "node-fetch": "^2.3.0"
+  }
+}

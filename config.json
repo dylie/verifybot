@@ -1,0 +1,42 @@
+{
+  "token": "Bot Token Here x dylie",
+  "prefix": "!",
+  "deleteMessages": true,
+  "presence": {
+    "type": "watching",
+    "name": "Dylie's verify bot !verify"
+  },
+
+  "servers": {
+    "SERVERIDHERE": {
+      "verificationChannel": "CHANNEL ID HERE PLZ CALL IT VERIFY",
+      "verifyRole": "VERIFY ROLE ID HERE"
+  },
+
+  "ignoreServers": [
+
+  ],
+
+  "commands": {
+    "ping": {
+      "executors": [],
+      "requiredPermissions": [],
+      "enabled": false
+    },
+    "verify": {
+      "executors": [],
+      "requiredPermissions": [],
+      "enabled": true
+    },
+    "unverify": {
+      "executors": [],
+      "requiredPermissions": [],
+      "enabled": true
+    },
+    "version": {
+      "executors": [],
+      "requiredPermissions": [],
+      "enabled": false
+    }
+  }
+}
